@@ -20,8 +20,6 @@ for i in range(1, 33):
     coordinates = [(img.size[0]/2)- (img.size[0]/6), (img.size[1])/2]
     trans_txt = Image.new('RGBA', img.size, (255,255,255,0))
 
-    print(img.size)
-
     # fnt = ImageFont.load_default()
     canvas = ImageDraw.Draw(trans_txt)
     fnt =ImageFont.truetype(font_face, font_size)
